@@ -1,8 +1,10 @@
 # Cassandra-Flask
 app.py and cassie_utils.py should go on the node which you want to act as the web server.
 
-dependencies
+Dependencies
+```
 sudo pip install flask cassandra-driver
+```
 
 Run the Flask webserver with the following
 ```
