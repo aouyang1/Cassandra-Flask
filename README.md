@@ -14,10 +14,10 @@ $ flask app.py
 Here's a listing of the API calls which can be made now
 -------------------------------------------------------------------------------------------------------------------
 Fashion data schema
-http://<web-server-public-ip>:5000/schema
+http://*web-server-public-ip*:5000/schema
 -------------------------------------------------------------------------------------------------------------------
 Get all records in the last N time increments
-http://<web-server-public-ip>:5000/fashion/last/<N>/<TimeIncrement>/<Fields>
+http://*web-server-public-ip*:5000/fashion/last/*N*/*TimeIncrement*/*Fields*
 
    <N> must be an integer
    <TimeIncrement> can be: seconds/minutes/hours/days/weeks
