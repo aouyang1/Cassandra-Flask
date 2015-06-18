@@ -8,7 +8,7 @@ sudo pip install flask cassandra-driver
 
 Run the Flask webserver with the following
 ```
-$ flask app.py
+$ python app.py
 ```
 
 Here's a listing of the API calls which can be made now
